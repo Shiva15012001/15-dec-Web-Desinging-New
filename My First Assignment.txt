@@ -1,0 +1,155 @@
+                                                  Frontend Assignment
+                                                   _____________________
+Part1 : Web designing 
+__________________
+                                                     MODULE:1 (HTML)
+
+(1)  Are thr Html tags and elements the same thing?
+
+ans: No, the Html tags and elements  are not the same thing 
+
+      Beacause The word written between angle bracket is called tags
+      The particular woed written between anglw bracket is called elements.
+
+(2)  What are the tags and attributes in html?
+
+ans: the word written between angle bracket is called attributes.
+        The additional function used in tags is called attributes.
+        
+       For example <body bg color = "red">
+       bg color iis called attributes.
+
+(3) What are void elements in html?
+  
+ ans: The tag that has no closing tag is called void elements.
+              
+         Void elements : <br>,<hr>,<img>,<meta><link..
+
+(4) What are html entities ?
+
+ans: Some characters are reserved in html.
+        entities are used to display reserved characters in html.
+   
+       Entites begins with an ampersand (&)and ends with a semicolon(;).
+
+(5)  What are different types of list in html?
+
+ans:  there are three types of list in html
+
+        . Order list 
+        . Unorder list
+        . Defination list
+
+(6) What is the ' class' attributes im html?
+
+ans: The class attributes is used to point to a class in style sheet .
+        The class attributes is part of Global attributes.
+
+(7) What is the different between the id and the 'class' attributes of html elements?
+
+ans: Id is unique in page and can only apply to at most one elements , while "class" selector can apply to multiple elements
+
+(8) What are the various formatting tags in html?
+
+ans:  1.Bold tags                4.Inset tag
+         2. Italic tag                 5.Strike tag
+         3. underline tag         6. Delet tag
+
+(9) How is cellpadding different from cell spacing?
+
+ans: In html cell padding and cell spacing are the two attributes used for formatting tables cells.
+        The most nbasic difference between cell padding and cell padding is that the cell padding is used to set white          space between cell edge and sell content  whereas cell padding is used to set the white space between two         cells. 
+
+(10) How can we club two or more rows colums into a single row or colum in html tables?
+
+ans:  It can be done by using the rowspan and colspan attributes in html. The rowspan is used to merge or combine          the  nimber or cells in row whereas the colspan is used to merge column in a table.
+
+(11) What is the difference between a block level elements and inline elements?
+
+ans: Block elements:
+        
+        BLock elements always start from a new line . Block elements cover space from left to right as far as it can go.
+        Block elements have top and bottom margins,
+        
+        Example os block elements <p>, <div>, <hr> 
+        
+        Inline elements:
+        
+        Inline elements never start from a new line.
+        Inline elements only cover the space as bounded by  the tags in the html elements.
+        Inline elements don't have a top and bottom margin
+
+        Example of inline elements <span>, <br>.
+
+(12) How to create a hyperlinks?
+
+ans:  Html links are hyper links.
+       
+         You can click on a link and jump to another document.
+        
+         Html links syntax:
+         This example shows how to create a link to w3school.com
+         <a href = "http:// www.w3school.com/">
+         Visit  w3school.com! <a/>.
+
+(13) What is the use of an ifram tag?
+
+ans: The <iframe> tag specifies an inline frame. An inline frame is used to embed another document within the current
+        Html document.
+
+(14) What is the use of a span tag? Explain with example.
+
+ans: The <span> tag is an inline container used to mark up a part of a text , or a part of a document.
+
+        <p>my mother has <span style= "color : blue"> blue </span> eyes and my father has <span style="color: green>          dark green </span>eyes.</p>.
+
+(15)  How to insert a picture into background image of a web page?
+
+ans: The most common simple way to add background image is using the background image attributes inside the
+        <body> tag
+
+Syntax: 
+            <body background= "URL"> website body </body>.
+
+(16)  How are active links different from normal links?
+
+ans:  Active links is a line of code pointing to another resource , but it is on the action of opening the resource being
+         pointed.
+
+        Normal links is just a line of code containing a pointer to another resource.
+
+(17) What are the different tags to seperate section of text?
+
+ans: Three tags are used to seperate the text. <br> tag usually <br> tag is used to seperate the line of text . It breaks         the current line and convey the flow to the next line
+    
+        <p> tag   the <p> tag contains the next in the form of a new paragraph.
+   
+
+(18) What is SVG?
+
+ans: SVG stands for scalable vector graphics.
+        SVG is used to define vector based graphics for the web.
+        SVG define the graphics in xml format.
+        Every elements and every attributes in SVG files can be animated.
+
+(19) What is difference between html and xhtml?
+
+ans: Html is the standard markup language for creating web pages while xhtml is a stricker and more standardized         version of html. Both html and xhtml include a wide range os features, such as support for multimedia, styling and         scripting.
+
+        An html file can be saved with the extension  .html, html, htm, xml
+
+(20) what are logical and physical tag in html?
+
+ans: Physical and logical tags are used in HTML for better visibility and understanding of the text by the user on the         web page
+
+        logical tags:- 
+
+        Logical tags sre used in html to display the text according to the logical styles. 
+
+        for example:- <abbr>, <address>, <code>, <pre>,<strong>.
+
+        Physical tags:-
+   
+        Physical tags sre used in html to provide actual physical formatting to the text.
+
+        For example <b>,<i>,<small>,<sup>,<sub>.
