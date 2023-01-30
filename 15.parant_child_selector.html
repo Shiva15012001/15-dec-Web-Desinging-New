@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            border: 2px solid black;
+            height: auto;
+            width: 200px;
+            padding: 10px; 
+            margin: 5px;  
+        }
+        .div2{
+            border: 2px solid black;
+            height: auto;
+            width: 200px;
+            padding: 10px;
+            margin: 5px;
+        }
+        /*parent-child*/
+        .div1 p{
+            color:blue;
+        }
+        .div1 h3{
+            color: green;
+        }
+        .div2 p{
+            color: yellowgreen;
+        }
+        .div2 h3{
+            color:darkorange;
+        }
+        .div2 > .div3{
+            /* we take parent value in child*/
+            height: inherit;
+            width: inherit;
+            border: inherit;
+            padding: inherit;
+            color: violet;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur porro sunt hic sit, excepturi totam necessitatibus suscipit veniam enim sed, at dignissimos assumenda cumque explicabo, voluptate ad asperiores vitae deleniti.
+            <h3>hellow World</h3>
+        </p>
+    </div>
+    <div class="div2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio labore suscipit molestiae voluptas temporibus hic aperiam eos, doloribus eaque eius maxime nisi deserunt totam eligendi quia est perferendis repellendus rerum?
+            <h3>hellow World</h3>
+        </p>
+        <div class="div3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas molestias aut at minima iure qui illum repudiandae, animi nemo voluptas perferendis commodi. Vel, iste sit facere minus nulla doloribus. Quasi.</p>
+        </div></div>
+        
+</body>
+</html>
