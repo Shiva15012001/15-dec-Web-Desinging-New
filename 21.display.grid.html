@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+    .div1,.div3,.div5,.div7,.div9{
+        margin: 10px;
+        height: 100px;
+        width: 100px;
+        background-color: green;
+    }
+    .div2,.div4,.div6,.div8,.div10{
+
+        height: 100px;
+        width: 100px;
+        background-color: rgb(245, 221, 10);
+    }
+    .main{
+        border: 2px solid red;
+        display: grid;
+        /*grid-template-columns:auto auto auto auto auto;*/
+        padding: 20px;
+        grid-template-columns:repeat(5, 1fr);
+        gap: 30px;
+        justify-items: center;
+        align-items: center;
+    }
+    </style>
+</head>
+<body>
+    <!--display grid provide tabular form-->
+    <div class="main">
+        <div class="div1">Hello world</div>
+        <div class="div2">Hello world</div>
+        <div class="div3">Hello world</div>
+        <div class="div4">Hello world</div>
+        <div class="div5">Hello world</div>
+        <div class="div6">Hello world</div>
+        <div class="div7">Hello world</div>
+        <div class="div8">Hello world</div>
+        <div class="div9">Hello world</div>
+        <div class="div10">Hello world</div>
+    </div>
+</body>
+</html>
