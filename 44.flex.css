@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0px 30px;
+}
+.main{
+    padding: 20px;
+    display: flex;
+}
+.main img{
+    height: 450px;
+    width: 550px;
+    border-radius: 10px;
+}
+.main .left-img{
+    padding: 10px;
+}
+.main .right-content{
+    padding: 20px;
+}
+.main .right-content h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.main .right-content h3 span{
+    background-color: orangered;
+
+}
+.main .right-content h2{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+.main .right-content p{
+    font-size: 22px;
+    padding-bottom: 25px;
+   
+}
+.main .right-content button{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+    background: orangered;
+    color: white;
+}
+@media (max-width:576px) {
+    .container{
+        margin: 0px 5px;
+    }
+    .main{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .main img{
+        height: 300px;
+        width: 420px;
+        border-radius: 10px;
+    }
+        
+    }
+
+    @media (min-width:576px) {
+        .container{
+            margin: 0px 5px;
+        }
+        .main{
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+        }
+        .main img{
+            height: 300px;
+            width: 420px;
+            border-radius: 10px;
+        }
+            
+        }
+        @media (min-width:768px){
+            .container{
+                margin: 0px 30px;
+            }
+            .main{
+                padding: 20px;
+                display: flex;
+            }
+        }
+        @media (min-width:992px){
+            .container{
+                margin: 0px 20px;
+            }
+            .main{
+                padding: 20px;
+                display: flex;
+                flex-direction: row;
+            }
+        }
+        @media (min-width:1200px){
+            .container{
+                margin: 0px 30px;
+            }
+            .main{
+                padding: 20px;
+                display: flex;
+                display: flex;
+                flex-direction: row;
+            }
+            
+
+        }
+
+
+    
+
+
+        
+    
+    
+   
+
+    
