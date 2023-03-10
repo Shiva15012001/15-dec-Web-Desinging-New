@@ -1,0 +1,37 @@
+there is two type of functions in programing
+(1)user define
+(2)predefine/built-in
+
+==functions are used to reduce your coading 
+==reusable code
+
+
+ predefine functions are=
+      write(),writeln(),isNaN(),log(),
+
+
+user define:
+     function function_name(){
+            statement;
+     }
+     function function_name(param1,param2,param3){
+
+     }
+     
+ events : 
+ which is perform sume tasks
+     there are 4 type of events
+
+         mouse,keyboard,form,window,
+
+         (1)mouse event:click,clickover,mouseover,mouse out,mouse leave,
+         (2)keyboard event:keyup,keydown,keypress,
+         (3)form event:submit
+         (4)window event:load,resize,unload,
+
+ event handler:
+        who is the handle the events
+           click=onclick
+           dblclick=ondblclick
+           submit=onsubmit
+                   

@@ -1,0 +1,58 @@
+there is two type of conditions
+(1) if condition
+(2) swith condition
+
+
+(1) if condition:
+          =if... else statement
+          =if...else if...else statement
+          =nested if...else statement
+      
+     syntax:
+         (1) if statement
+               if (condition){
+                
+               }    
+         (2) if...else statement
+                  if(condition){
+
+                  } else{
+
+                  }    
+         (3) if....else..else statement
+                   if (condition){
+
+                   }else{
+
+                   }
+          (4) nested if statement
+                     if(condition){{
+
+                     }else{
+
+                     }  else{
+                       if(condition) 
+                     }else{
+
+                     }   
+                    }             
+               
+ (2):switch condition:
+              switch(var-name){
+                case 1:
+                statement
+                break:
+
+                case 2:
+                statement
+                break:
+                          .............
+                case N:
+                statement
+                break:
+
+                default:
+                statement
+                break:
+
+              }      
