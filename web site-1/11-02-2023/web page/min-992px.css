@@ -1,0 +1,102 @@
+@media (min-width:992px) {
+    .container{
+        margin: 0px 50px;
+    }
+    .header .header-flex .logo{
+        flex: 2;
+    }
+    .header .header-flex .nav{
+        display: block;
+    }
+    .header .header-flex .show-menu{
+        display: none;
+    }
+    
+    /*======================background image=============*/
+    .background .bg-img{
+        height: 700px;
+    }
+    .background .bg-img .img-text{
+        left:230px;
+    }
+    /* =============service-1============ */
+.service-1 .ser-flex {
+    display: flex;
+    flex-direction:row;
+    }
+    .service-1 .ser-flex .left-img{
+    flex: 1;
+    padding: 0px 10px;
+    }
+    .service-1 .ser-flex .left-img img {
+    height: 350px;
+    width: 500px;
+    }
+    /* ============service-2========= */
+    .service-2 .ser-2-padding {
+     padding: 100px 0px;
+    }
+    .service-2 .ser-2-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    }
+    .service-2 .ser-2-flex .hover-img .text {
+    position: absolute;
+     top: 30px;
+    }
+    .service-2 .ser-2-flex .hover-img h2 {
+     font-size: 35px;
+    }
+/* =====fast-serevices====== */
+     .fast-service .fast-ser-flex{
+    display: flex;
+    flex-direction: row;
+    }
+    .fast-service .fast-ser-flex .left-animation{
+    padding: 0px;
+    }
+    /* =============our-services================ */
+.our-services .ser-grid{
+    grid-template-columns: repeat(2,1fr);
+ }
+ /* =========more-services=========== */
+.more-services .more-padding .more-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ }
+ /* =============customer-review ==========*/
+.cust-review .cust-review-padding{
+    padding: 80px 0px;
+ }
+ .cust-review .cust-review-flex{
+    display: flex;
+    flex-direction:row;
+ }
+ /* =======articles====== */
+.articles .card-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+ }
+/* ==========form============== */
+.email-form .bg-img .e-f-padding{
+    padding: 20px ;
+ }
+ .email-form .e-f-flex .left-content h1{
+    font-size:30px;
+ }
+ /* ========footer======= */
+.footer .footer-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+ }
+ .footer .end-footer{
+    display: flex;
+    flex-direction:row;
+ }
+ .footer .end-footer .terms ul{
+    padding-top: 0px;
+ }
+
+}

@@ -1,0 +1,204 @@
+@media (max-width:576px) {
+ .container{
+margin: 0px 30px;
+ } 
+ .header .header-flex{
+   display: flex;
+   align-items: center;
+ }  
+ .hedaer .header-flex .logo{
+    flex: 10;
+ }
+ .header .header-flex .nav{
+   display: none;
+}
+ .header .header-flex .show-menu{
+    display: block;
+    padding-left:10px ;
+ }
+ /*===========background========*/
+ .background .bg-img{
+    height: 650px;
+ }
+ .background .bg-img .img-text{
+    left: 40px;
+ }
+ /* =============service-1============ */
+ .service-1 .ser-flex{
+    display: flex;
+    flex-direction: column;
+ }
+ .service-1 .ser-flex .left-img{
+    flex: 1;
+    padding: 0px 0px;
+ }
+ .service-1 .ser-flex .left-img img{
+    height: 300px;
+    width: 420px;
+ }
+ .service-1 .ser-flex .right-text h1{
+    font-size: 30px;
+ }/* ============service-2========= */
+.service-2 .ser-2-padding {
+   padding: 50px 0px;
+}
+
+.service-2 .ser-2-flex {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.service-2 .ser-2-flex .hover-img .text {
+   position: absolute;
+   top: 20px;
+   left: 20px;
+}
+.service-2 .ser-2-flex .hover-img h2{
+   font-size: 2px;
+}
+/* ============curier-services */
+.cur-ser .cur-flex {
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+}
+/* =====fast-serevices====== */
+.fast-ser-padding{
+padding: 80px 0px;
+}
+.fast-service .fast-ser-flex{
+   display: flex;
+   flex-direction: column;
+}
+.fast-service .fast-ser-flex .left-animation{
+   padding: 100px;
+}
+/* =============our-services================ */
+.our-services .ser-grid{
+   grid-template-columns: repeat(1,1fr);
+}
+ /* =========more-services=========== */
+.more-services .more-padding .more-grid{
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+}
+/* =============customer-review ==========*/
+
+.cust-review .cust-review-padding{
+   padding: 120px 0px;
+}
+.cust-review .cust-review-flex{
+   display: flex;
+   flex-direction: column;
+}
+/* =====articals========= */
+.articals .card-box{
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   gap: 20px;
+}
+/* =======articles====== */
+.articles .card-box{
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   gap: 20px;
+}
+/* ==========form============== */
+.email-form .bg-img .e-f-padding{
+   padding: 20px ;
+}
+.email-form .e-f-flex{
+   display: flex;
+   flex-direction: column;
+}
+.email-form .e-f-flex .left-content h1{
+   font-size:30px;
+}
+.email-form .e-f-flex .right-email-form .email-form-flex{
+   flex-direction: column;
+}
+.email-form .e-f-flex .right-email-form .email-form-flex input[type="text"]{
+   width: 350px;
+}
+.email-form .e-f-flex .right-email-form .email-form-flex button{
+   width: 350px;
+}
+/* ==========form============== */
+.email-form{
+   padding: 50px 0px;
+}
+.email-form .bg-img{
+   background-image: url(images/img1.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   z-index: 1;
+}
+.email-form .bg-img::after{
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0, 0, 0, 0.74);
+   z-index: -1;
+}
+.email-form .bg-img .e-f-padding{
+   padding: 50px ;
+}
+.email-form .e-f-flex{
+   display: flex;
+   align-items: center;
+}
+.email-form .e-f-flex .left-content{
+   flex: 1;
+   padding: 30px 10px;
+}
+.email-form .e-f-flex .left-content h1{
+   font-size:35px;
+   color: white;
+   text-transform: capitalize;
+}
+.email-form .e-f-flex .right-email-form{
+   flex: 1;
+}
+.email-form .e-f-flex .right-email-form .email-form-flex{
+   display: flex;
+   gap: 20px;
+}
+.email-form .e-f-flex .right-email-form .email-form-flex input[type="text"]{
+height: 46px;
+width: 250px;
+border-radius: 10px;
+border: none;
+padding: 5px;
+font-size: 18px;
+}
+.email-form .e-f-flex .right-email-form .email-form-flex button{
+   background-color: #f52029;
+   height: 47px;
+   width: 120px;
+   border: none;
+   border-radius: 10px;
+   color: white;
+   font-weight: 700;
+   text-transform: uppercase;
+
+} 
+/* ========footer======= */
+.footer .footer-grid{
+   display: grid;
+   grid-template-columns: 1fr;
+}
+.footer .end-footer{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.footer .end-footer .terms ul{
+   padding-top: 10px;
+   justify-content: center;
+   gap: 20px;
+}
+}
