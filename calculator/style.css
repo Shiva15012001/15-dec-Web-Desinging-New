@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin-top: 30px;
+    box-shadow: 4px 4px 1px 1px #575757a9;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(66, 180, 225);
+    height: 570px;
+    width: 550px;
+    margin-top: 50px;
+    
+}
+.digit input{
+    height: 200px;
+    width: 400px;
+    font-size: 50px;
+}
+.buttons{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.col1{
+    background-color: black;
+    width: 320px;
+    height: 300px;
+}
+.col2{
+    background-color: rgb(67, 65, 65);
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.btn1 , .btn2 , .btn3 , .btn4 , .btn5{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+}
+.row1, .row2 , .row3, .row4{
+    display: flex;
+    margin-top: 20px;
+}
+.rbtn1{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 100px;
+}
+.col1 button{
+    background-color: black;
+    height: 50px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 0px;
+}
+.col2 button{
+    height: 50px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 25px 0px;
+    background-color: rgb(67, 65, 65);
+    margin-top: 5px;
+}
