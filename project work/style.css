@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .container {
+    margin: 0px 50px;
+  }
+/*====SECTION-1=======*/
+
+.container{
+    display: flex !important;
+    background-color: rgba(255, 255, 255, 0.932);
+} 
+.h_f{
+    background-color: #f30404;
+    padding: 20px;
+    height: 50px;
+    width: 250px;
+} 
+.h_f a{
+    color: white;
+    padding-left: 10px;
+}
+.h_m{
+    background-color: #fa7070;
+    height:50px;
+    width: 200px;
+}
+.h_l{
+    background-color: #f30404;
+    color: white;
+    padding: 25px;
+    height: 50px;
+    width: 350px;
+}
+.h_f .h3{
+    color: white;
+}
+.divider{
+    color: white;
+    height: 2px;
+    width: 100%;
+}
+
+
+
+
+/*========= SECTION========*/
+.bdy{
+   display: flex;
+}
+.bdy img{
+   height: 180px;
+   width: 300px;
+   padding-left: 20px;
+    
+    
+}
+.bdy .menu{
+    background-color: #fa7070;
+    height:180px;
+    width: 200px;
+}
+.bdy ul{
+    padding-left: 20px;
+    color: white;
+}
+.bdy .menu ul a{
+    color: white;
+}
+.bdy .wal{
+    background-image: url(images/walp.jpeg);
+    height: 180px;
+    width: 350px;
+    color: white;
+}
+.bdy .wal .pad{
+    padding-left: 25px;
+}
+.bdy .wal h2{
+    padding-bottom: 60px;
+}
+.bdy .wal p{
+    font-size: small;
+}
+/*============ SECTION-3==========*/
+.ne1{
+    display: flex;
+   padding-left:50px;
+}
+.ne1 .new{
+    background-color: rgb(252, 252, 78);
+    height: 450px;
+    width: 250px;
+}
+.ne1 .new .bt{
+    padding: 20px;
+}
+.ne1 .new .btn1{
+    background-color: orangered;
+    color: white;
+    justify-content: center;
+    padding-bottom: 15px;
+    padding-top: 8px;
+    height: 40px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.ne1 .new p{
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+}
+.ne1 .new h6{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+.ne1 .new img{
+    padding-left: 75px;
+}
+.ne1 .othr{
+    background-color: #f3e304;
+}
+.ne1 .small{
+    display: flex;
+    height: 50px;
+    width: 550px;
+    padding-top: 10px;
+}
+.ne1 .small p{
+    font-size: 15px;
+    font-weight: 700;
+    color: #f30404;
+}
+.ne1 .othr button{
+    background-color: #f30404;
+    color: white;
+    height: 40px;
+    width: 90px;
+}
+.ne1 .othr .small .divider{
+    color: white;
+    height: 5px;
+    width: 50px;
+}
+.ne1 .extra{
+    padding-top: 50px;
+    height:400px;
+    width: 500px;
+}
+.ne1 .extra h5{
+    color: #f30404;
+    padding: 25px;
+}
+.ne1 .extra .im-ex{
+    display: flex;
+}
+.ne1 .extra img{
+    padding-left: 15px;
+    height: 200px;
+    width: 300px;
+}
+.ne1 .extra p{
+    line-height: 25px;
+}
+.last{
+    padding-left: 50px;
+}
+.last .last-n{
+ display: flex;
+ background-color: orange;
+ height: 150px;
+ width: 800px;
+}
+.last .last-n .r-text{
+    width: 250px;
+    padding-left: 10px;
+}
+.last .her{
+    padding-left: 25px;
+}
+.last .last-n h1{
+    color: aliceblue;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-style: italic;
+}
+.last .last-n .na{
+    background-color: #c2b834;
+}
+.last .last-n ul{
+    display: flex;
+    gap: 100px;
+}
