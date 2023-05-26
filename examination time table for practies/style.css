@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/*======== header Section=======*/
+.main{
+    background-color: #F2F4F4;
+    height: 750px;
+    width: 1400px;
+}
+.section{
+    background-color:#F2F4F4;
+    padding-top: 20px;
+    border-bottom: 1px solid gray;
+}
+.section .container{
+    display: flex;
+    padding-bottom: 50px;
+}
+.section .container .logo{
+    flex: 0.2;
+    padding-right: 20px;
+    color:#475F7B ;
+    font-family: "Rubik", Helvetica, Arial, serif;;
+
+}
+.section .container .text{
+    flex: 1;
+    border-left: 1px solid black;
+    display: block;
+    padding-left: 15px;
+    color: #75a4fc;
+    font-size: 15px;
+    font-family: "Rubik", Helvetica, Arial, serif;;
+}
+.section .container .text span{
+    color:#475F7B ;
+}
+.section .container .btns {
+    flex: 1;
+    display: flex;
+    gap: 5px;
+    padding-top: 15px;
+    padding-left: 300px;
+    padding-right: 200px;
+    height: 30px;
+    width: 50px;
+    color: white;
+    justify-items: center;
+}
+.section .container .btns .ref{
+    height: 30px;
+    width: 70px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.section .container .btns .bat{
+    height: 30px;
+    width: 70px;
+    background-color: #75a4fc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/*=========section-2===========*/
+.main-s{
+    background-color: #F2F4F4;
+    width: 100%;
+}
+.main-s .container{
+    padding-top: 0px;
+    padding-bottom: 30px;
+    display: flex;
+}
+.section .container{
+    padding-bottom: 30px;
+}
+.main-s .container .list-f{
+    border-right: 0.2px solid grey;
+    height: 550px;
+    width: 250px;
+}
+.main-s .container .bt-b{
+    display: flex;
+    height: 40px;
+    width: 500px;
+    font-size: 12px;
+    font-weight: 200;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    font-family: "Rubik", Helvetica, Arial, serif;;
+}
+.main-s .container .bt-b button{
+    background-color: #75a4fc;
+    height: 40px;
+    width: 200px;
+    border-radius:10x;
+    border: none;
+    font-size: 15px;
+}
+.main-s .container .bt-b a{
+    color: white;
+    font-size: 20px;
+}
+.main-s .container .list{
+    padding-top: 50px;
+}
+.main-s .container .list .active{
+    color: #75a4fc;
+}
+.main-s .container .list h6{
+    color: #bac0c7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main-s .container .list a{
+    font-size: 18px;
+    color: #596F88;
+    
+}
+.main-s .container .list span{
+    padding-right: 10px;
+
+}
+/*.main .container .bxslider{
+    background-color:white;
+}*/
+.main-s .container .bxslider span{
+    padding-right: 10px;
+    font-size: 20px;
+    justify-items: center;
+}
+.main-s .container .bxslider{
+    display: flex;
+    padding-top: 10px;
+    height:550px;
+    width: 100%;
+}
+.main-s .container .bxslider button{
+    height: 65px;
+    width: 170px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    background-color: #75a4fc;
+    color: white;
+    gap: 10px;
+}
+
+.main-s .container .bxslider .slider7{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+/*=====medai query======*/
+@media (max-width:576px) {
+    .main{
+        background-color: #F2F4F4;
+        height: 750px;
+        width: 1200px;
+    }
+    .section{
+        background-color:#F2F4F4;
+        padding-top: 20px;
+        border-bottom: 1px solid gray;
+    }
+    section .container .text{
+        flex:0;
+    }
+       
+    .section .container .text{
+        display: none;
+    }
+    .section .container .btns {
+        padding-top: 15px;
+        padding-left: 500px;
+        padding-right: 100px;
+        height: 25px;
+        width: 40px;
+        flex: 0;
+        justify-items: center;
+    }
+    .section .container .logo{
+        flex: 0;
+        padding-left: 10px;
+    }
+    .main-s .container .bxslider{
+        display: flex;
+        padding-top: 10px;
+        height:350px;
+        width: 100px;
+    }
+    .main-s .container .bxslider .bt-1{
+        width: 100px;
+    }
+    
+/*======== section-2==========*/
+     .main-s .container .list-f{
+         display: none;
+     }
+}
+@media (min-width:576px){
+    .main{
+        background-color: #F2F4F4;
+        height: 750px;
+        width: 1200px;
+    }
+    .section .container .text{
+        display: none;
+        
+    }
+    .section .container .btns {
+        padding-left: 50px;
+        height: 25px;
+        padding-left: 500px;
+        padding-right: 100px;
+        width: 40px;
+        flex: 0;
+        justify-items: center;
+    }
+    .section .container .logo{
+        flex: 0;
+        padding-left: 10px;
+    }
+    section .container .text{
+        flex: 1;
+        border-left: 1px solid black;
+        display: block;
+        padding-left: 15px;
+        color: #75a4fc;
+        font-size: 15px;
+    }
+       
+    /*======== section-2==========*/
+    .main-s .container .list-f{
+        display: none;
+   }
+}
+@media (min-width:768px){
+
+    .main{
+        background-color: #F2F4F4;
+        height: 750px;
+        width: 1200px;
+    }
+    .section .container .text{
+        display: block;
+        padding-left: 25px
+    }
+    .section .container .btns {
+        padding-left: 100px;
+        height: 25px;
+        width: 40px;
+        flex: 0;
+        justify-items: center;
+    }
+    .section .container .logo{
+        flex: 0;
+    }
+   /*======== section-2==========*/
+   .main-s .container .list-f{
+    display: none;
+}
+}
+@media (min-width:992px){
+
+    .main{
+        background-color: #F2F4F4;
+        height: 750px;
+        width: 1200px;
+    }
+    .section .container .text{
+        display: block;
+        padding-left: 25px
+    }
+    .section .container .btns {
+        padding-left: 100px;
+        height: 25px;
+        width: 40px;
+        flex: 0;
+        justify-items: center;
+    }
+    .section .container .logo{
+        flex: 0;
+    }
+    /*======== section-2==========*/
+    .main-s .container .list-f{
+        display:block;
+   }
+}
+@media (min-width:1200px){
+    .main{
+        background-color: #F2F4F4;
+        height: 750px;
+        width: 1400px;
+    }
+    .section .container .text{
+        display: block;
+        padding-left: 25px
+    }
+    .section .container .btns {
+        padding-left: 300px;
+        padding-right: 200px;
+        height: 25px;
+        width: 40px;
+        flex: 0;
+        justify-items: center;
+    }
+    .section .container .logo{
+        flex: 0;
+    }
+    /*======== section-2==========*/
+    .main-s .container .list-f{
+        display: block;
+   }
+}
