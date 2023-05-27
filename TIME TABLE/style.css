@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/*========== header=============*/
+.section .main{
+    padding: 10px;
+}
+.section .main .header p{
+    background-color: #6b9bf5;
+    color: white;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 40px;
+    font-family: sans-serif;
+}
+.section .main .btns ul{
+    display: flex;
+    gap: 10px;
+}
+.section .main .btns ul span{
+    padding-right: 5px;
+}
+.section .main .btns .btn1{
+    background-color: #f2f4f4;
+    color: black;
+    font-size: 15px;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border: none; 
+}
+.section .main .btns .btn1:hover{
+    color: #6b9bf5;
+
+}
+.section .main .btns .btn2{
+    background-color: #6b9bf5;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 170px;
+    border-radius: 5px;
+    border: none; 
+}
+.section-2 .main-2 .table tbody button{
+   height: 35px;
+   width: 120px;
+}
+.section-2 .main-2 .head{
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 35px;
+}
+.section-2 .main-2 .head .sh{
+    flex: 2;
+    padding-left: 40px;
+}
+.section-2 .main-2 .head .sr{
+    flex: 1;
+    justify-content:left;
+}
+
+
+
+
+
+/*========media query============*/
+@media (max-width:576px) {
+     .section .main .btns ul{
+        display: grid;
+    }
+    .section-2 .main-2 .head{
+        display: grid;
+        justify-content: center;
+    }
+    .section-2 .main-2 .head .sh{
+        flex: 2;
+        padding-left: 20px;
+    }
+}
+@media (min-width:576px) {
+    .section .main .btns ul{
+        display: flex;
+    }
+    .section-2 .main-2 .head{
+        display: grid;
+        justify-content: center;
+    }
+    .section-2 .main-2 .head .sh{
+        flex: 2;
+        padding-left:20px;
+    }
+}
+
+@media (min-width:768px) {
+    .section-2 .main-2 .head{
+        display: flex;
+    }
+    .section-2 .main-2 .head .sh{
+        flex: 2;
+        padding-left:40px;
+    }
+}
