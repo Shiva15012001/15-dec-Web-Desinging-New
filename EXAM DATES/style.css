@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section .main{
+    padding: 50px;
+}
+.section .main  .table .hd{
+    background-color:#40566F;
+    font-size: 12px;
+    font-weight: 500;
+}
+.section .main .table thead th{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.section .main .table tbody td{
+    text-align: center;
+    height: 15px;
+    color: #40566F;
+    font-size: 15px;
+    font-weight: 500;
+   
+}
+input[type=date]{
+    margin: auto;
+    padding-left: 10px;
+    border-radius: 5px;
+    border:1px solid grey;
+}
+input[type=date]:focus{
+    visibility: none;
+}
+ 
